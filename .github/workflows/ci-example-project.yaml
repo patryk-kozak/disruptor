@@ -19,8 +19,6 @@ jobs:
         run: ./nix-shell.sh
       - name: Build all
         run: |
-          pwd
           ./nix-shell.sh "--run nix-env --version"
-          ./nix-shell.sh "--command cd example_project_bzl_4; return"
-          bazel build //... 
+          ./nix-shell.sh "--run cd example_project_bzl_4" 
           
