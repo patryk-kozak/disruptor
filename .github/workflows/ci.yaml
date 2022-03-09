@@ -11,3 +11,5 @@ jobs:
       with:
         fetch-depth: 0
     - run: ./nix-shell.sh
+    - name: Verify nix-shell version
+      run: ./nix-shell.sh --run nix-shell --version
