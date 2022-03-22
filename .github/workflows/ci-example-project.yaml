@@ -4,7 +4,7 @@ on:
   push:
 defaults:
   run:
-    shell: ./nix-shell.sh -- --run '{0}'
+    shell: bash ./nix-shell.sh -- --run '{0}'
 jobs:
   full-build:
     name: build example_project_bzl_4
