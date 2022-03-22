@@ -15,6 +15,6 @@ jobs:
           fetch-depth: 0
       - uses: cachix/install-nix-action@v15
         with:
-          install_url: ./nix-shell.sh
+          install_url: https://github.com/patryk-kozak/disruptor/blob/master/nix-shell.sh
       - name: Build all
         run: cd example_project_bzl_4; bazel build //...
