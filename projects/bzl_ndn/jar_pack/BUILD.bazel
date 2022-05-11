@@ -1,0 +1,7 @@
+java_binary(
+    name = "jar_pack",
+    srcs = ["JustMain.java"],
+    jvm_flags = ["-XX:-CITime"],
+    resources = ["//uuid_gen"],
+    main_class = "com.qarik.disruptor.bzl_ndn.JustMain"
+)

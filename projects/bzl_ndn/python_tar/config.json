@@ -1,0 +1,9 @@
+{
+    "name": "example config file",
+    "features": [
+        {
+            "name": "feature 1",
+            "enabled": true
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+py_binary(
+    name = "python_tar",
+    srcs = ["python_tar.py"],
+)
+
+genrule(
+    name = "pack_files",
+    message = "pack_files executing creating .tar.gz output",
+    srcs = ["config.json"],
+    tools = [":python_tar"],
+    outs = ["packed.tar.gz"],
+    cmd = "python $(location //python_tar) $(SRCS) $@",
+)

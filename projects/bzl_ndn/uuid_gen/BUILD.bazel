@@ -1,0 +1,8 @@
+genrule(
+    name = "uuid_gen",
+    srcs = [],
+    outs = ["uuid.txt"],
+    cmd = "cat /proc/sys/kernel/random/uuid > $(OUTS)",
+    visibility = ["//visibility:public"]
+)
+
