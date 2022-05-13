@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java_cmd" isTestSource="false" packagePrefix="com.qarik.disruptor" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ascii_banner10" level="project" />
+    <orderEntry type="library" name="ascii_banner16" level="project" />
+    <orderEntry type="library" name="ascii_banner18" level="project" />
+    <orderEntry type="library" name="ascii_banner19" level="project" />
+    <orderEntry type="library" name="ascii_banner8" level="project" />
+    <orderEntry type="library" name="ascii_banner9" level="project" />
+    <orderEntry type="library" name="ascii_banner6" level="project" />
+    <orderEntry type="library" name="ascii_banner15" level="project" />
+    <orderEntry type="library" name="ascii_banner7" level="project" />
+    <orderEntry type="library" name="ascii_banner12" level="project" />
+    <orderEntry type="library" name="ascii_banner17" level="project" />
+    <orderEntry type="library" name="ascii_banner5" level="project" />
+    <orderEntry type="library" name="ascii_banner13" level="project" />
+    <orderEntry type="library" name="ascii_banner2" level="project" />
+    <orderEntry type="library" name="ascii_banner1" level="project" />
+    <orderEntry type="library" name="ascii_banner" level="project" />
+    <orderEntry type="library" name="ascii_banner3" level="project" />
+    <orderEntry type="library" name="ascii_banner4" level="project" />
+    <orderEntry type="library" name="ascii_banner14" level="project" />
+    <orderEntry type="library" name="ascii_banner11" level="project" />
+    <orderEntry type="module" module-name="common-module" />
+    <orderEntry type="module" module-name="common-module1" />
+    <orderEntry type="module" module-name="modules2" />
+    <orderEntry type="module" module-name="common-module2" />
+    <orderEntry type="module" module-name="modules" />
+    <orderEntry type="module" module-name="modules1" />
+  </component>
+</module>
